@@ -1,0 +1,7 @@
+node_modules
+dist
+
+# Plik configuracji aplikacji
+src/config/config.json
+
+yarn-error.log

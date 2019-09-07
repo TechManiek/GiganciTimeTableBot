@@ -1,0 +1,24 @@
+{
+  "name": "time-table",
+  "version": "0.0.1",
+  "main": "dist/app.js",
+  "repository": "git@github.com:TechManiek/GiganciTimeTableBot.git",
+  "author": "Kubisz Mariusz <kontakt@kubiszmariusz.pl>",
+  "scripts": {
+    "build": "babel -d ./dist ./src",
+    "dev": "nodemon --exec babel-node src/app.js",
+    "start": "node dist/app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bootbot": "^1.0.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "nodemon": "^1.19.2"
+  }
+}
